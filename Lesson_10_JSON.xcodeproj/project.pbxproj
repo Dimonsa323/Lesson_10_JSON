@@ -11,6 +11,18 @@
 		14B1550D28A2E6FF00C62C05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1550C28A2E6FF00C62C05 /* SceneDelegate.swift */; };
 		14B1551428A2E70000C62C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B1551328A2E70000C62C05 /* Assets.xcassets */; };
 		14B1551728A2E70000C62C05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B1551528A2E70000C62C05 /* LaunchScreen.storyboard */; };
+		14B1552528A3075B00C62C05 /* ModelRickAndMortн.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1552428A3075B00C62C05 /* ModelRickAndMortн.swift */; };
+		14CBD85428A3E475002ABDBD /* RickAndMortyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD85228A3E475002ABDBD /* RickAndMortyVC.swift */; };
+		14CBD85528A3E475002ABDBD /* RickAndMortyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD85328A3E475002ABDBD /* RickAndMortyVC.xib */; };
+		14CBD85928A3E508002ABDBD /* InfoPersonsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD85728A3E508002ABDBD /* InfoPersonsVC.swift */; };
+		14CBD85A28A3E508002ABDBD /* InfoPersonsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD85828A3E508002ABDBD /* InfoPersonsVC.xib */; };
+		14CBD85C28A3E51C002ABDBD /* InfoPersonsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD85B28A3E51C002ABDBD /* InfoPersonsPresenter.swift */; };
+		14CBD85E28A3E52C002ABDBD /* RickAndMortyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD85D28A3E52C002ABDBD /* RickAndMortyPresenter.swift */; };
+		14CBD86228A43E8D002ABDBD /* ExtraInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD86028A43E8D002ABDBD /* ExtraInfoVC.swift */; };
+		14CBD86328A43E8D002ABDBD /* ExtraInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD86128A43E8D002ABDBD /* ExtraInfoVC.xib */; };
+		14CBD86528A43E9E002ABDBD /* ExtraInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD86428A43E9E002ABDBD /* ExtraInfoPresenter.swift */; };
+		14CBD86928A5523C002ABDBD /* InfoPresonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD86728A5523C002ABDBD /* InfoPresonsCell.swift */; };
+		14CBD86A28A5523C002ABDBD /* InfoPresonsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD86828A5523C002ABDBD /* InfoPresonsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,18 @@
 		14B1551328A2E70000C62C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14B1551628A2E70000C62C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14B1551828A2E70000C62C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B1552428A3075B00C62C05 /* ModelRickAndMortн.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelRickAndMortн.swift"; sourceTree = "<group>"; };
+		14CBD85228A3E475002ABDBD /* RickAndMortyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyVC.swift; sourceTree = "<group>"; };
+		14CBD85328A3E475002ABDBD /* RickAndMortyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RickAndMortyVC.xib; sourceTree = "<group>"; };
+		14CBD85728A3E508002ABDBD /* InfoPersonsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPersonsVC.swift; sourceTree = "<group>"; };
+		14CBD85828A3E508002ABDBD /* InfoPersonsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoPersonsVC.xib; sourceTree = "<group>"; };
+		14CBD85B28A3E51C002ABDBD /* InfoPersonsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPersonsPresenter.swift; sourceTree = "<group>"; };
+		14CBD85D28A3E52C002ABDBD /* RickAndMortyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyPresenter.swift; sourceTree = "<group>"; };
+		14CBD86028A43E8D002ABDBD /* ExtraInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraInfoVC.swift; sourceTree = "<group>"; };
+		14CBD86128A43E8D002ABDBD /* ExtraInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExtraInfoVC.xib; sourceTree = "<group>"; };
+		14CBD86428A43E9E002ABDBD /* ExtraInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraInfoPresenter.swift; sourceTree = "<group>"; };
+		14CBD86728A5523C002ABDBD /* InfoPresonsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPresonsCell.swift; sourceTree = "<group>"; };
+		14CBD86828A5523C002ABDBD /* InfoPresonsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoPresonsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +76,8 @@
 		14B1550928A2E6FF00C62C05 /* Lesson_10_JSON */ = {
 			isa = PBXGroup;
 			children = (
+				14B1552228A306B900C62C05 /* Screens */,
+				14B1552128A306A500C62C05 /* Model */,
 				14B1552028A2F19900C62C05 /* Storyboard */,
 				14B1551F28A2F18900C62C05 /* Source */,
 				14B1551E28A2F14B00C62C05 /* SupportFiles */,
@@ -83,6 +109,64 @@
 				14B1551528A2E70000C62C05 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		14B1552128A306A500C62C05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14B1552428A3075B00C62C05 /* ModelRickAndMortн.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14B1552228A306B900C62C05 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD85F28A43E66002ABDBD /* ExtraInfoVC */,
+				14CBD85628A3E47D002ABDBD /* InfoPersonsVC */,
+				14B1552628A3076E00C62C05 /* RickAndMortyVC */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		14B1552628A3076E00C62C05 /* RickAndMortyVC */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD85228A3E475002ABDBD /* RickAndMortyVC.swift */,
+				14CBD85328A3E475002ABDBD /* RickAndMortyVC.xib */,
+				14CBD85D28A3E52C002ABDBD /* RickAndMortyPresenter.swift */,
+			);
+			path = RickAndMortyVC;
+			sourceTree = "<group>";
+		};
+		14CBD85628A3E47D002ABDBD /* InfoPersonsVC */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD86628A55206002ABDBD /* InfoCell */,
+				14CBD85728A3E508002ABDBD /* InfoPersonsVC.swift */,
+				14CBD85828A3E508002ABDBD /* InfoPersonsVC.xib */,
+				14CBD85B28A3E51C002ABDBD /* InfoPersonsPresenter.swift */,
+			);
+			path = InfoPersonsVC;
+			sourceTree = "<group>";
+		};
+		14CBD85F28A43E66002ABDBD /* ExtraInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD86028A43E8D002ABDBD /* ExtraInfoVC.swift */,
+				14CBD86128A43E8D002ABDBD /* ExtraInfoVC.xib */,
+				14CBD86428A43E9E002ABDBD /* ExtraInfoPresenter.swift */,
+			);
+			path = ExtraInfoVC;
+			sourceTree = "<group>";
+		};
+		14CBD86628A55206002ABDBD /* InfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD86728A5523C002ABDBD /* InfoPresonsCell.swift */,
+				14CBD86828A5523C002ABDBD /* InfoPresonsCell.xib */,
+			);
+			path = InfoCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +227,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CBD85528A3E475002ABDBD /* RickAndMortyVC.xib in Resources */,
+				14CBD85A28A3E508002ABDBD /* InfoPersonsVC.xib in Resources */,
+				14CBD86A28A5523C002ABDBD /* InfoPresonsCell.xib in Resources */,
+				14CBD86328A43E8D002ABDBD /* ExtraInfoVC.xib in Resources */,
 				14B1551728A2E70000C62C05 /* LaunchScreen.storyboard in Resources */,
 				14B1551428A2E70000C62C05 /* Assets.xcassets in Resources */,
 			);
@@ -155,8 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CBD85E28A3E52C002ABDBD /* RickAndMortyPresenter.swift in Sources */,
+				14B1552528A3075B00C62C05 /* ModelRickAndMortн.swift in Sources */,
+				14CBD86528A43E9E002ABDBD /* ExtraInfoPresenter.swift in Sources */,
+				14CBD85C28A3E51C002ABDBD /* InfoPersonsPresenter.swift in Sources */,
+				14CBD86928A5523C002ABDBD /* InfoPresonsCell.swift in Sources */,
 				14B1550B28A2E6FF00C62C05 /* AppDelegate.swift in Sources */,
 				14B1550D28A2E6FF00C62C05 /* SceneDelegate.swift in Sources */,
+				14CBD86228A43E8D002ABDBD /* ExtraInfoVC.swift in Sources */,
+				14CBD85428A3E475002ABDBD /* RickAndMortyVC.swift in Sources */,
+				14CBD85928A3E508002ABDBD /* InfoPersonsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
