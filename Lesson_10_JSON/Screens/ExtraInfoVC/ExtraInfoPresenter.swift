@@ -7,20 +7,27 @@
 
 import Foundation
 
+
 // MARK: - Presenter Protocol
 
 protocol ExtraInfoPresenterProtocol {
 
+    var model: Heroes { get }
 }
 
 // MARK: - Class
 
 class ExtraInfoPresenter {
 
+    let model: Heroes
+    
+    init(model: Heroes) {
+        self.model = model
+    }
+    
 }
 
 // MARK: - Extension
 
 extension ExtraInfoPresenter: ExtraInfoPresenterProtocol {
-
 }
